@@ -1,4 +1,4 @@
 FROM almalinux
 LABEL AUTHOR= "Praveen" \
-      COURSE= "DEVOPS"
+      COURSE= "DEVOPS" \
       DURATION= "25HRS"
