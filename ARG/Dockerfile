@@ -1,6 +1,7 @@
-#FROM almalinux:{$VERSION}
-#ARG VERSION
-FROM almalinux
-ARG CONT_IMG_VER
+ARG VERSION
+FROM almalinux:${VERSION}
+
+#FROM almalinux
+#ARG CONT_IMG_VER
 #ENV CONT_IMG_VER=hello
-RUN echo $CONT_IMG_VER
+#RUN echo $CONT_IMG_VER
