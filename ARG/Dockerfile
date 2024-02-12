@@ -1,5 +1,5 @@
 ARG VERSION
-FROM almalinux:${VERSION}
+FROM almalinux:${VERSION:-8}
 
 #FROM almalinux
 #ARG CONT_IMG_VER
